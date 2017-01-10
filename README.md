@@ -17,6 +17,15 @@ Well, we listen for them.
 
 Adding an event listener to a DOM node is easy — we just call `addEventListener()` on the node. `addEventListener()` takes two arguments: the name of the event, and a function to handle the event.
 
+To get set up for this lab:
+
+1. Open the lab on github by clicking on the github icon at the top of the page.
+2. Copy the repo's URL (be sure to use the SSH link, not the HTTPS link).
+3. In your IDE, navigate to the `labs` folder (if you're in a lab, you can just run `cd ..` and that will take you one directory above where you are).
+4. Do `git clone <paste the URL for this repo>`. This will download the code for this lesson.
+5. Then do `cd listening-to-dom-nodes` and it should open the folder for this lab (all this (and more) is usually automated in the `learn open` command or using the Open Button).
+6. Then, in your IDE, you can open the `index.html` file and click the link in the bottom-left to copy the local URL of the local copy of the file to your clipboard so you can paste it into a browser tab.
+
 Let's start by adding a listener for `click` events to the `main#main` element in `index.html`. Open the file in a browser and, in console, enter:
 
 ``` javascript
